@@ -1,10 +1,4 @@
-body
-{
-    margin: 0;
-    padding: 0;
-    background-color: #e11055;
-    font-family: sans-serif;
-}
+
 .main
 {
     position: absolute;
@@ -70,40 +64,7 @@ body
     font-size: 15px;
     color: #262627;
 }
-.main .info .descrp p
-{
-    margin: 10px 0px;
-    padding: 0;
-    color: #262627;
-}
-.main .info .descrp ul
-{
-    padding: 0;
-    display: table;
-    margin: 10px auto 0;
-}
-.main .info .descrp ul li
-{
-    list-style: none;
-    float: left;
-    margin: 0 5px;
-}
 
-.main .info .descrp ul li a i
-{
-    display: block;
-    background-color: #262627;
-    color: white;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    text-align: center;
-    transition: 0.5s;
-}
-.main .info .descrp ul li a i:hover
-{
-    background-color: red;
-}
 .descrp a
 {
     text-decoration: none;
