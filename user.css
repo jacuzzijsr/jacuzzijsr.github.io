@@ -4,7 +4,10 @@
     position: absolute;
     top: 10dp;
     left: 10%;
-    width: 360px;
+   
+    margin-left: auto;
+  margin-right: auto;
+  width: 50%;
     height: 400px;
     background-color: #000;
     transform: translate(-50%,-50%);
