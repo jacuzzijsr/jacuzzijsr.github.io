@@ -1,10 +1,14 @@
 html{
 
- background-image: url(‘cover.jpeg’);
+ background-image: url("cover.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
     padding:20px;
+}
+h1{
+  font-size: 80px;
+ font-family:"Verdana";
 }
 
 body {
