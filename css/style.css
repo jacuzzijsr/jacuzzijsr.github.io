@@ -1,5 +1,5 @@
 /* --------------------------------------------------------
-Style Sheet for Rajdeep Singh Golan's personal website
+Style Sheet for Jacuzzi parlour website
 
 author: Rajdeep Singh Golan
 ----------------------------------------------------------*/
@@ -14,7 +14,7 @@ body {
 /* LEFT HALF */
 
 .main-left-column {
-    background: linear-gradient(#b53f51, #130b22);
+    background: linear-gradient(#00BFFF, #191970);
     background-attachment: fixed;
     overflow: hidden;
     height: 100vh;
