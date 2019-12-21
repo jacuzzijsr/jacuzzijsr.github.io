@@ -78,6 +78,32 @@ img {vertical-align: middle;}
   animation-name: fade;
   animation-duration: 1.5s;
 }
+  .button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+  .button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
 @-webkit-keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
@@ -95,8 +121,10 @@ img {vertical-align: middle;}
 </head>
 <body>
   
-  <h1> Welcome! </h1>
-  
+  <h1> Welcome </h1>
+  <br>
+  <button onclick="location.href='http://www.123formbuilder.com/form-5206835/booking-form'" class="button button1">Place online order</button>
+  <br>
   <img src="jacuzzi/b0760358-4d55-4f61-838a-cd2335f39305.jpg" width="400" height="400">
   <a class="push_button red" href="bistupur.html">Bistupur</a> <a class="push_button blue" href="sakchi.html">Sakchi</a>
 
