@@ -25,6 +25,7 @@ body {
   font-weight: normal;
   font-style: normal;
   color: #747E88;
+  background-color: black;
   overflow-x: hidden; }
 
 * {
@@ -1039,7 +1040,7 @@ p {
        04.ABOUT css 
 ===========================*/
 .about-area {
-  background-color: #F3FDFF; }
+  background-color: black; }
 
 .about-image {
   position: relative;
